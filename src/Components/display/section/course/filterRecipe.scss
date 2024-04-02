@@ -1,0 +1,50 @@
+h3 {
+    color: var(--color-primary, #F27830);
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.container_c {
+    padding: 20px;
+
+}
+
+.cardLesson {
+    display: flex;
+    gap: 40px;
+}
+
+.title_c {
+    margin-bottom: 10px;
+}
+
+.filterRec {
+    padding: 64px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.public {
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #3CCF17;
+    ;
+}
+
+.private {
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: var(--primary);
+    ;
+}
+
+.filtVar {
+    padding: 20px 0px;
+}
+
+.h3 {
+    margin-bottom: 30px;
+}

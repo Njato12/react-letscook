@@ -1,0 +1,17 @@
+.container_collection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 62px;
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.p-orange {
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    color: var(--primary);
+}

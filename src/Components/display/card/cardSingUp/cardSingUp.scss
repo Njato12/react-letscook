@@ -1,0 +1,25 @@
+// .container_s{
+//     height: 100vh;
+// }
+.container_singUp {
+    padding: 77px 130px 142px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    img {
+        object-fit: cover;
+    }
+}
+
+.wrap_singUp {
+    background-color: rgba(242, 242, 242, 0.80);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-sing {
+    display: flex;
+    gap: 10px;
+}
